@@ -12,7 +12,7 @@
 4 verbose stack     at normalize (/Users/allyface/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:31:15)
 4 verbose stack     at final (/Users/allyface/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:349:5)
 4 verbose stack     at then (/Users/allyface/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
-4 verbose stack     at /Users/allyface/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+4 verbose stack     at /Users/allyface/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:311:12
 4 verbose stack     at /Users/allyface/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
 4 verbose stack     at tryToString (fs.js:426:3)
 5 verbose cwd /Users/allyface/Desktop/lg/week-5-assessment
