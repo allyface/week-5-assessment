@@ -6,7 +6,7 @@ const app = express()
 require('ejs')
 app.set('view engine', 'ejs');
 
-app.use(express.static('public'))
+app.use(express.static('views'))
 app.use(bodyParser.urlencoded({ extended: false }))
 
 app.get('/', (request, response) => {
@@ -31,3 +31,5 @@ const port = process.env.PORT || 3000
 app.listen(port, () => {
   console.log(`Listening on http://localhost:${port}...`)
 })
+
+module.exports = app

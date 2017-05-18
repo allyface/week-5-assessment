@@ -28,5 +28,5 @@ const getContacts = function(callback){
 }
 
 module.exports = {
-  getContacts,
+  getContacts
 }
