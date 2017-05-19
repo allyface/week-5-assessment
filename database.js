@@ -24,9 +24,22 @@ const getContacts = function(callback){
       *
     FROM
       contacts
+    ORDER BY
+      name ASC
+  `, [], callback)
+}
+
+const getDetail = function(callback) {
+  query(`
+    SELECT
+      *
+    FROM
+      contacts
+    WHERE
+      name = contact.name
   `, [], callback)
 }
 
 module.exports = {
-  getContacts
+  getContacts, getDetail
 }

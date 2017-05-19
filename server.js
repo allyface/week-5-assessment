@@ -23,6 +23,20 @@ app.get('/', (request, response) => {
   })
 })
 
+app.get('/contacts/:id', (request, response) => {
+  database.getDetail((error, contacts) => {
+    if (error) {
+      response.status(500).render('error', {
+        error: error,
+      })
+    } else {
+      response.render('detail', {
+        detail: detail,
+      })
+    }
+  })
+})
+
 app.use((request, response) => {
   response.status(404).render('not_found')
 })

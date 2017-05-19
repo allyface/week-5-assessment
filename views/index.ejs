@@ -12,7 +12,7 @@
   <div class="contact-list">
     <% contacts.forEach(function(contact){ %>
       <div>
-        <%= contact.name %>
+        <%= link_to(contact.name, 'contacts/'+contact.id) %>
       </div>
     <% }) %>
   </div>
